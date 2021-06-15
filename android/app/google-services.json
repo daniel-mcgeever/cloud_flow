@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1086611514922",
+    "project_id": "cloudflow-47a7b",
+    "storage_bucket": "cloudflow-47a7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086611514922:android:597affd490498ab4660553",
+        "android_client_info": {
+          "package_name": "com.dmcg.cloudflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086611514922-stoim6k5l7c57tepncmll4hfm0p2jk32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dmcg.cloudflow",
+            "certificate_hash": "6f952d59ce49a198cc9e827c8a1c9f9724dcddad"
+          }
+        },
+        {
+          "client_id": "1086611514922-u4kvb91k3q7mas51l339hi6lfeno79ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0E3lVq3LuRRahz9pOLLOd-Sgv6ElNnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086611514922-u4kvb91k3q7mas51l339hi6lfeno79ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
