@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:my_api/api.dart';
 
 import 'package:cloud_flow/reusable_pages/loading.dart';
 import 'package:cloud_flow/reusable_pages/something_wrong.dart';
 import 'package:cloud_flow/constants/theme.dart';
 import 'package:cloud_flow/services/authentication/auth_wrapper.dart';
-import 'package:cloud_flow/betfair/betfair.dart';
+import 'package:cloud_flow/betfair/test.dart';
 
 import 'dart:io' show Platform;
 
@@ -131,17 +132,18 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             ElevatedButton(
                 onPressed: () {
-                  BetfairClient().connect();
+                  createMyApi();
+                  // BetfairClient().connect();
                 },
                 child: Text('Connect')),
             ElevatedButton(
                 onPressed: () {
-                  BetfairClient().authenticate();
+                  // BetfairClient().authenticate();
                 },
                 child: Text('Authenticate')),
             ElevatedButton(
                 onPressed: () {
-                  BetfairClient().subscribe();
+                  // BetfairClient().subscribe();
                 },
                 child: Text('Subscribe'))
           ],
@@ -149,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          BetfairClient().connect();
+          // BetfairClient().connect();
         },
         tooltip: 'Increment',
         child: Icon(Icons.add),
